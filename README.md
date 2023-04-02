@@ -9,9 +9,12 @@ Utilizing CUDA hardware decoder `cuvid` each frame is decoded and copied to a `c
 
     Ubuntu
     sudo apt install libopencv-dev libavcodec-dev libavdevice-dev libavfilter-dev libavformat-dev libavutil-dev
+OR
 
     git clone https://github.com/Marware/opencv-ffmpeg-cuda-build
     Follow the insructions in the repo
+
+Using `opencv-ffmpeg-cuda-build` will get and build the latest code from OpenCV and FFmpeg codebases
 
 ### Build
     
