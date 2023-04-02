@@ -22,3 +22,8 @@ Utilizing CUDA hardware decoder `cuvid` each frame is decoded and copied to a `c
 ### Run
 
     ./mdelogo input=[URL/FILE] output=[URL/FILE]
+
+### Notes
+* It the feature to detect text using OCR `Tesseract` is available but commented due to limited testing
+* The ability to use CPU-only processing in decoding, encoding and detection is available, needs more optimization
+* Contributions are welcome!
